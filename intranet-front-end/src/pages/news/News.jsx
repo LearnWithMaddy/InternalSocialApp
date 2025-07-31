@@ -1,5 +1,5 @@
 import {latestPosts} from "../../data/Posts.js";
-import PostCard from "../../components/PostCard.jsx";
+import PostCard from "../../components/post/PostCard.jsx";
 
 
 export default function News() {

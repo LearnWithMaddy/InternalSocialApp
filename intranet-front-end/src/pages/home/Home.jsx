@@ -1,10 +1,10 @@
-import BirthdayCard from "../../components/BirthdayCard.jsx";
+import BirthdayCard from "../../components/birthday/BirthdayCard.jsx";
 import {weeklyBirthdays} from "../../data/Birthdays.js";
-import PostCard from "../../components/PostCard.jsx";
+import PostCard from "../../components/post/PostCard.jsx";
 import {latestPosts} from "../../data/Posts.js";
-import EventItem from "../../components/EventItem.jsx";
+import EventItem from "../../components/event/EventItem.jsx";
 import {upcomingEvents} from "../../data/Events.js";
-import TimeZoneSection from "../../components/TimeZoneSection.jsx";
+import TimeZoneSection from "../../components/timezone/TimeZoneSection.jsx";
 
 export default function Home() {
     return (
